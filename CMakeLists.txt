@@ -10,4 +10,4 @@ include_directories(${turbobase64_INCLUDE_DIRS})
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_libraries(${PROJECT_NAME} libbase64.a)
+target_link_libraries(${PROJECT_NAME} ${turbobase64_LIBRARIES})
